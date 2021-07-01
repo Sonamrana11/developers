@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { DetailsComponent } from './details/details.component';
 import { ErrorComponent } from './error/error.component';
 import { LayoutComponent } from './layout/layout.component';
+import { NotificationComponent } from './notification/notification.component';
 import { TopbarComponent } from './topbar/topbar.component';
 
 const routes: Routes = [
@@ -13,7 +14,8 @@ const routes: Routes = [
   {
     path: 'layout', component: LayoutComponent, children: [
       {path: 'dashboard', component: DashboardComponent},
-      {path: 'showdetails', component: DetailsComponent}
+      {path: 'showdetails', component: DetailsComponent},
+      {path:'shownotification', component:NotificationComponent}
     ]
   },
   { path: '**', component:ErrorComponent }

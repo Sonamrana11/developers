@@ -10,6 +10,7 @@ import { FootbarComponent } from './footbar/footbar.component';
 import { DetailsComponent } from './details/details.component';
 import { LayoutComponent } from './layout/layout.component';
 import { ErrorComponent } from './error/error.component';
+import { NotificationComponent } from './notification/notification.component';
 
 
 
@@ -23,6 +24,7 @@ import { ErrorComponent } from './error/error.component';
     DetailsComponent,
     LayoutComponent,
     ErrorComponent,
+    NotificationComponent,
   ],
   imports: [
     BrowserModule,
